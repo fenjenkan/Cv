@@ -1,0 +1,109 @@
+---
+import Section from "@/components/Section.astro";
+
+import { work } from "@cv";
+---
+
+<Section title=" Experience">
+    <ul>
+        {
+            work.map(
+                ({
+                    name,
+                    startDate,
+                    endDate,
+                    position,
+                    summary,
+                    highlights,
+                    badges
+                }) => {
+                    const startYear = new Date(startDate).getFullYear();
+                    const endYear =
+                        endDate !== null
+                            ? new Date(endDate).getFullYear()
+                            : "Current";
+                    const years = `${startYear}-${endYear}`;
+                    return (
+                        <li>
+                            <article>
+                                <header>
+                                    <div>
+                                        <h3>{name}</h3> <span>{badges}</span>
+                                        <h4>{position}</h4>
+                                    </div>
+                                    <time>{years}</time>
+                                </header>
+                                <div>
+                                    <p>{summary}</p>
+                                </div>
+
+                                <footer>
+                                    <p>Technologies</p>
+                                    <div>
+                                        {/* Mapea los highlights y renderiza cada uno con el estilo deseado */}
+                                        {highlights.map((highlight) => (
+                                            <div class="chip">
+                                                {highlight}
+                                            </div>
+                                        ))}
+                                    </div>
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                },
+            )
+        }
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    article h3 {
+        font-weight: 500;
+        color: #111;
+        margin-bottom: 8px;
+    }
+    article h4 {
+        font-weight: 400;
+        color: #222;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    time {
+        font-size: 0.85rem;
+        color: #555;
+    }
+    article span {
+        border-radius: 6px;
+        background: #555;
+        padding: 3px;
+        font-size: 0.85rem;
+        color: #eee;
+    }
+    footer p{
+        font-weight: 700;
+    }
+    footer div{
+        display: flex;
+        gap: 7px;
+    }
+    .chip{
+        font-size: 0.85rem;
+        background: #EBEDEF;
+        padding: 2px;
+        border-radius: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+</style>

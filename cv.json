@@ -1,0 +1,401 @@
+{
+    "basics": {
+      "name": "Felipe Arevalo Betancourt",
+      "label": "Full Stack Web Developer",
+      "image": "/yo.webp",
+      "email": "fenjenkan@gmail.com",
+      "phone": "+5213310069665",
+      "url": "https://johndoe.com",
+      "summary": "+5 years of experience as a Web Developer. I have been part of large full stack projects, I am studying and preparing all the time, and I adapt quickly to new work environments.",
+      "location": {
+        "address": "Isla Mexiana 2957",
+        "postalCode": "45608",
+        "city": "Guadalajara",
+        "countryCode": "MX",
+        "region": "Jalisco"
+      },
+      "profiles": [{
+        "network": "LinkedIn",
+        "username": "Felipe Arevalo",
+        "url": "https://www.linkedin.com/in/felipe-arevalo-55ba71117/"
+      },
+      {
+        "network": "GitHub",
+        "username": "fenjenkan",
+        "url": "https://github.com/fenjenkan"
+      }
+    ]
+    },
+    "work": [{
+      "name": "Wozial Marketing Lovers  ",
+      "position": "Web Developer",
+      "badges": ["On site"],
+      "url": "https://wozial.com/public/",
+      "startDate": "2020-08-01",
+      "endDate": "2022-02-01",
+      "summary":"I specialize in web development, including online stores, landing pages and web applications, with a focus on usability. I collaborate with other programmers to solve problems in existing applications and have experience developing React applications, integrating REST APIs and using TypeScript. In addition, I have experience connecting backend and frontend with PHP, and work with a variety of frontend frameworks such as Bootstrap and Tailwind CSS. I also have experience in vanilla development with direct PHP.",
+      "highlights": [
+        "HTML",
+        "CSS",
+        "PHP",
+        "REACT",
+        "Angular",
+        "JS",
+        "NodeJS",
+        "MYSQL",
+        "ExpressJS"
+      ]
+    },
+    {
+      "name": "DigitalThinkers  ",
+      "position": "Full Stack Web Developer",
+      "badges": ["Hybrid"],
+      "url": "https://www.digitalthinkers.net/",
+      "startDate": "2023-02-01",
+      "endDate": null,
+      "summary": "I specialize in web development using JavaScript technologies on the frontend and backend. I have experience in Node.js and Express.js to connect with AngularJS on the frontend, as well as creating APIs with Sequelize. I work with microservices and REST APIs , and I use TypeScript to control data in frontend interfaces, especially in Angular. I use SQL, MySQL and develop detailed landing pages with Astro. I collaborate with other programmers to solve problems and I use Git to manage project versions ",
+      "highlights": [
+        "Angular",
+        "NodeJS",
+        "Figma",
+        "GoodDay",
+        "Notion",
+        "Sequelize",
+        "NodeJS",
+        "MYSQL",
+        "ExpressJS",
+        "MaterialA",
+        "TypeScript"
+      ]
+    }
+  ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Cuauhtemoc University",
+      "url": "https://www.ucg.edu.mx/",
+      "area": "Systems Engineer",
+      "studyType": "Bachelor",
+      "startDate": "2017-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Degree in system engineering completed",
+      "score": "4.6",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "IED Pablo Neruda ",
+      "url": "https://www.ucg.edu.mx/",
+      "area": "School",
+      "studyType": "Bachelor",
+      "startDate": "2017-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Consecrated Bachelor, in Bogota Colombian. Among the 100 best high school graduates in the country evaluated by a national exam ",
+      "score": "4.6",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [ {
+      "name": "HTML",
+      "level": "Advance",
+      "image": "/logos/html.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Advance",
+      "image": "/logos/css.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advance",
+      "image": "/logos/js.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Boostrap",
+      "level": "Avanzado",
+      "image": "/logos/boostrap.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "intermediate",
+      "image": "/logos/ts.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "intermediate",
+      "image": "/logos/node.webp",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advance",
+      "image": "/logos/mysql.webp",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "intermediate",
+      "image": "/logos/mongo.webp",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Sequelize",
+      "level": "Basic",
+      "image": "/logos/sequelize.webp",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advance",
+
+      "image": "/logos/git.webp",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+   
+    {
+      "name": "Angular",
+      "level": "Advance",
+      "image": "/logos/angular.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Basic",
+      "image": "/logos/react.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    
+    {
+      "name": "Astro",
+      "level": "intermediate",
+      "image": "/logos/astro.webp",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }],
+    "languages": [{
+      "language": "Espanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B2 professional"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "Contateca",
+        "isActive": true,
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "Web app , Admin web , online schools",
+        "highlights": [
+           "Full stack development"
+        ],
+        "url": "https://contateca.com/"
+      },
+      {
+        "name": "Pacto Digital",
+        "isActive": true,
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "Web app , Admin web ,build your own contract",
+        "highlights": [
+          "Full stack development"
+        ],
+        "url": "https://www.pactodigital.com.mx/home"
+      },
+      
+    {
+      "name": "Expresa",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "e-commerce",
+      "highlights": [
+        "Full stack development"
+      ],
+      "url": "https://www.mercabella.com/"
+    },
+  {
+      "name": "Mercabella",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "e-commerce",
+      "highlights": [
+        "+ 2000 sold products",
+        "Full stack development"
+      ],
+      "url": "https://www.expresadbp.com/"
+    },{
+      "name": "SkyExplore",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "e-commerce",
+      "highlights": [
+        "Full stack development"
+      ],
+      "url": "https://skyexplore.mx/"
+    },{
+      "name": "NaoFractional",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing page",
+      "highlights": [
+         "Beautiful design",
+         "Front End  development"
+      ],
+      "url": "https://naofractional.com/index.html"
+    },{
+      "name": "Playa Cay",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing page",
+      "highlights": [
+        "Front End  development"
+      ],
+      "url": "https://www.naofractional.com/playacay/"
+    },
+    {
+      "name": "Jungle Punta Mita",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing page",
+      "highlights": [
+        "Front End  development"
+      ],
+      "url": "https://www.naofractional.com/jungle-punta-mita/"
+    },
+    {
+      "name": "Restaurantes ",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing page",
+      "highlights": [
+        "Online menu",
+        "Billing"
+      ],
+      "url": "https://www.restaurantesmaleconvallarta.com/index.html"
+    },
+    {
+      "name": "Bolongo",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing Page",
+      "highlights": [
+       "Front End  development"
+      ],
+      "url": "https://www.naofractional.com/casa-pinar/"
+    },
+    {
+      "name": "Casa Pinta",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing Page",
+      "highlights": [
+       "Front End  development"
+      ],
+      "url": "https://www.naofractional.com/casa-pinta/"
+    },
+    {
+      "name": "Port Nao",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing Page",
+      "highlights": [
+       "Front End  development"
+      ],
+      "url": "https://www.naofractional.com/port-nao/"
+    },
+    {
+      "name": "Provumex",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing page",
+      "highlights": [
+        
+      ],
+      "url": "https://provumex.com/"
+    }
+    
+    ]
+  }
