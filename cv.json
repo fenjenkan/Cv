@@ -386,6 +386,17 @@
       "url": "https://www.naofractional.com/port-nao/"
     },
     {
+      "name": "Meta Consultores",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Landing page",
+      "highlights": [
+        "Front End  development"
+      ],
+      "url": "https://meta-consultores.com.mx/"
+    },
+    {
       "name": "Provumex",
       "isActive": true,
       "startDate": "2019-01-01",
