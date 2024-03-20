@@ -67,24 +67,6 @@
         "MaterialA",
         "TypeScript"
       ]
-    },
-    {
-      "name": "SAP CPI  ",
-      "position": "SAP CPI",
-      "badges": ["Freelance"],
-      "url": "",
-      "startDate": "2023-02-01",
-      "endDate": null,
-      "summary": "Development of integration flows between different systems such as ERP, S4hana, Marketing cloud, commerce among other systems, development of 100% customized integration flows or Extension of standard integration flows..",
-      "highlights": [
-        "Groovy",
-        "CPI",
-        "oData",
-        "Rest",
-        "Idoc",
-        "dataStore"
-      
-      ]
     }
   ],
     "volunteer": [{
