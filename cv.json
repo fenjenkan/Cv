@@ -26,7 +26,54 @@
       }
     ]
     },
-    "work": [{
+    "work": [
+    {
+      "name": "Visual Systems  ",
+      "position": "Full Stack Developer | Project Lead ",
+      "badges": ["Remote"],
+      "url": "https://visualsyst.com/",
+      "startDate": "2024-03-01",
+      "endDate": null,
+      "summary": "I am a Full Stack Developer specializing in Node.js and Express.js, currently advancing my expertise in React. In my current role, I serve as the Project Lead and Principal Developer, managing project development and maintaining direct communication with clients. My recent experiences have broadened my technical skill set, including frequent use of AWS services such as S3, RDS, EC2, and Docker. ",
+      "highlights": [
+        "React",
+        "NodeJS",
+        "Nest",
+        "S3",
+        "RDS",
+        "EC2",
+        "Notion",
+        "Sequelize",
+        "MYSQL",
+        "ExpressJS",
+        "MaterialA",
+        "TypeScript",
+        "Doker"
+      ]
+    },
+    {
+      "name": "DigitalThinkers  ",
+      "position": "Full Stack Web Developer",
+      "badges": ["Hybrid"],
+      "url": "https://www.digitalthinkers.net/",
+      "startDate": "2023-02-01",
+      "endDate": "2024-01-10",
+      "summary": "I specialize in web development using JavaScript technologies on the frontend and backend. I have experience in Node.js and Express.js to connect with AngularJS on the frontend, as well as creating APIs with Sequelize. I work with microservices and REST APIs , and I use TypeScript to control data in frontend interfaces, especially in Angular. I use SQL, MySQL and develop detailed landing pages with Astro. I collaborate with other programmers to solve problems and I use Git to manage project versions ",
+      "highlights": [
+        "Angular",
+        "NodeJS",
+        "Figma",
+        "GoodDay",
+        "Notion",
+        "Sequelize",
+        "NodeJS",
+        "MYSQL",
+        "ExpressJS",
+        "MaterialA",
+        "TypeScript"
+      ]
+    },
+    {
       "name": "Wozial Marketing Lovers  ",
       "position": "Web Developer",
       "badges": ["On site"],
@@ -44,28 +91,6 @@
         "NodeJS",
         "MYSQL",
         "ExpressJS"
-      ]
-    },
-    {
-      "name": "DigitalThinkers  ",
-      "position": "Full Stack Web Developer",
-      "badges": ["Hybrid"],
-      "url": "https://www.digitalthinkers.net/",
-      "startDate": "2023-02-01",
-      "endDate": null,
-      "summary": "I specialize in web development using JavaScript technologies on the frontend and backend. I have experience in Node.js and Express.js to connect with AngularJS on the frontend, as well as creating APIs with Sequelize. I work with microservices and REST APIs , and I use TypeScript to control data in frontend interfaces, especially in Angular. I use SQL, MySQL and develop detailed landing pages with Astro. I collaborate with other programmers to solve problems and I use Git to manage project versions ",
-      "highlights": [
-        "Angular",
-        "NodeJS",
-        "Figma",
-        "GoodDay",
-        "Notion",
-        "Sequelize",
-        "NodeJS",
-        "MYSQL",
-        "ExpressJS",
-        "MaterialA",
-        "TypeScript"
       ]
     }
   ],
@@ -212,6 +237,15 @@
       "image": "/logos/git.webp",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "Doker",
+      "level": "Basic",
+
+      "image": "/logos/doker.webp",
+      "keywords": [
+        "Contenedores", "deploy", "Código Fuente"
       ]
     },
    
