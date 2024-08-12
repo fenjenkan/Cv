@@ -6,7 +6,7 @@
       "email": "fenjenkan@gmail.com",
       "phone": "+5213310069665",
       "url": "https://johndoe.com",
-      "summary": "+5 years of experience as a Web Developer. I have been part of large full stack projects, I am studying and preparing all the time, and I adapt quickly to new work environments.",
+      "summary": "A Web Developer with over 5 years of experience, specializing in full-stack development across various industries including lawyers, online courses, rent of services, payment methods etc . Proficient in JS technologies like reatc, angular , node, express, nest , I have successfully delivered large-scale projects, consistently meeting deadlines and exceeding client expectations. I am committed to continuous learning, regularly updating my skills to keep pace with industry advancements. Known for my problem-solving abilities, teamwork, and effective communication, I quickly adapt to new environments and technologies.",
       "location": {
         "address": "Isla Mexiana 2957",
         "postalCode": "45608",
@@ -34,7 +34,7 @@
       "url": "https://visualsyst.com/",
       "startDate": "2024-03-01",
       "endDate": null,
-      "summary": "I am a Full Stack Developer specializing in Node.js and Express.js, currently advancing my expertise in React. In my current role, I serve as the Project Lead and Principal Developer, managing project development and maintaining direct communication with clients. My recent experiences have broadened my technical skill set, including frequent use of AWS services such as S3, RDS, EC2, and Docker. ",
+      "summary": "I am a Full Stack Developer with a strong focus on Node.js and Express.js, and I am continuously enhancing my skills in React. In my current position, I lead projects as both the Project Lead and Principal Developer, overseeing the full development lifecycle while maintaining close communication with clients. My recent work has expanded my technical expertise, particularly in utilizing AWS services like S3, RDS, EC2, and Docker. ",
       "highlights": [
         "React",
         "NodeJS",
@@ -58,7 +58,7 @@
       "url": "https://www.digitalthinkers.net/",
       "startDate": "2023-02-01",
       "endDate": "2024-01-10",
-      "summary": "I specialize in web development using JavaScript technologies on the frontend and backend. I have experience in Node.js and Express.js to connect with AngularJS on the frontend, as well as creating APIs with Sequelize. I work with microservices and REST APIs , and I use TypeScript to control data in frontend interfaces, especially in Angular. I use SQL, MySQL and develop detailed landing pages with Astro. I collaborate with other programmers to solve problems and I use Git to manage project versions ",
+      "summary": "I specialize in web development using JavaScript technologies across both frontend and backend. I have experience in connecting Node.js and Express.js with AngularJS on the frontend and in creating APIs with Sequelize. My expertise includes working with microservices and REST APIs, and I use TypeScript for data management in frontend interfaces, particularly in Angular. I am proficient in SQL and MySQL and have experience developing detailed landing pages with Astro. I collaborate effectively with other developers to solve complex problems and use Git for version control and project management.",
       "highlights": [
         "Angular",
         "NodeJS",
@@ -80,7 +80,7 @@
       "url": "https://wozial.com/public/",
       "startDate": "2020-08-01",
       "endDate": "2022-02-01",
-      "summary":"I specialize in web development, including online stores, landing pages and web applications, with a focus on usability. I collaborate with other programmers to solve problems in existing applications and have experience developing React applications, integrating REST APIs and using TypeScript. In addition, I have experience connecting backend and frontend with PHP, and work with a variety of frontend frameworks such as Bootstrap and Tailwind CSS. I also have experience in vanilla development with direct PHP.",
+      "summary":"I specialize in web development, including the creation of online stores, landing pages, and web applications, with a strong emphasis on usability. I collaborate with other developers to troubleshoot and enhance existing applications. My experience includes developing React applications, integrating REST APIs, and utilizing TypeScript. Additionally, I have expertise in connecting backend and frontend using PHP and am familiar with various frontend frameworks such as Bootstrap and Tailwind CSS. I also have experience in vanilla PHP development.",
       "highlights": [
         "HTML",
         "CSS",
@@ -228,6 +228,14 @@
       "image": "/logos/sequelize.webp",
       "keywords": [
         "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Nest.js",
+      "level": "intermediate",
+      "image": "/logos/NestJS.webp",
+      "keywords": [
+          "Backend"
       ]
     },
     {
