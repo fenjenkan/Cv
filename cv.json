@@ -4,15 +4,15 @@
     "label": "Full Stack Web Developer",
     "image": "/yo.webp",
     "email": "fenjenkan@gmail.com",
-    "phone": "+5213310069665",
-    "url": "https://johndoe.com",
+    "phone": "+573196339560",
+    "url": "https://felipecv.netlify.app/",
     "summary": "A Web Developer with over 5 years of experience, specializing in full-stack development across various industries including lawyers, online courses, rent of services, payment methods etc . Proficient in JS technologies like reatc, angular , node, express, nest , I have successfully delivered large-scale projects, consistently meeting deadlines and exceeding client expectations. I am committed to continuous learning, regularly updating my skills to keep pace with industry advancements. Known for my problem-solving abilities, teamwork, and effective communication, I quickly adapt to new environments and technologies.",
     "location": {
       "address": "Isla Mexiana 2957",
       "postalCode": "45608",
-      "city": "Guadalajara",
-      "countryCode": "MX",
-      "region": "Jalisco"
+      "city": "Bogota",
+      "countryCode": "COL",
+      "region": "Cundinamarca"
     },
     "profiles": [
       {
@@ -357,6 +357,15 @@
     }
   ],
   "projects": [
+    {
+      "name": "RISE SMS",
+      "isActive": true,
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-01",
+      "description": "Web app , Admin web , preflight mitigatons ",
+      "highlights": ["Full stack development"],
+      "url": "https://www.risesms.com/"
+    },
     {
       "name": "Contateca",
       "isActive": true,
