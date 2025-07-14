@@ -1,20 +1,21 @@
 {
-    "basics": {
-      "name": "Felipe Arevalo Betancourt",
-      "label": "Full Stack Web Developer",
-      "image": "/yo.webp",
-      "email": "fenjenkan@gmail.com",
-      "phone": "+5213310069665",
-      "url": "https://johndoe.com",
-      "summary": "A Web Developer with over 5 years of experience, specializing in full-stack development across various industries including lawyers, online courses, rent of services, payment methods etc . Proficient in JS technologies like reatc, angular , node, express, nest , I have successfully delivered large-scale projects, consistently meeting deadlines and exceeding client expectations. I am committed to continuous learning, regularly updating my skills to keep pace with industry advancements. Known for my problem-solving abilities, teamwork, and effective communication, I quickly adapt to new environments and technologies.",
-      "location": {
-        "address": "Isla Mexiana 2957",
-        "postalCode": "45608",
-        "city": "Guadalajara",
-        "countryCode": "MX",
-        "region": "Jalisco"
-      },
-      "profiles": [{
+  "basics": {
+    "name": "Felipe Arevalo Betancourt",
+    "label": "Full Stack Web Developer",
+    "image": "/yo.webp",
+    "email": "fenjenkan@gmail.com",
+    "phone": "+5213310069665",
+    "url": "https://johndoe.com",
+    "summary": "A Web Developer with over 5 years of experience, specializing in full-stack development across various industries including lawyers, online courses, rent of services, payment methods etc . Proficient in JS technologies like reatc, angular , node, express, nest , I have successfully delivered large-scale projects, consistently meeting deadlines and exceeding client expectations. I am committed to continuous learning, regularly updating my skills to keep pace with industry advancements. Known for my problem-solving abilities, teamwork, and effective communication, I quickly adapt to new environments and technologies.",
+    "location": {
+      "address": "Isla Mexiana 2957",
+      "postalCode": "45608",
+      "city": "Guadalajara",
+      "countryCode": "MX",
+      "region": "Jalisco"
+    },
+    "profiles": [
+      {
         "network": "LinkedIn",
         "username": "Felipe Arevalo",
         "url": "https://www.linkedin.com/in/felipe-arevalo-55ba71117/"
@@ -25,15 +26,39 @@
         "url": "https://github.com/fenjenkan"
       }
     ]
+  },
+  "work": [
+    {
+      "name": "AgaveLabs - VTWO  ",
+      "position": "Full Stack Developer ",
+      "badges": ["Remote"],
+      "url": "https://agavelab.com/",
+      "startDate": "2025-01-27",
+      "endDate": null,
+      "summary": "I am a full stack developer with a strong focus on Node.js, Express.js and Angular.js. I have worked with Angular 16 and 18 with several CSS frameworks. In my current role, I am in charge of adding, correcting and fixing app elements, PDF exports, constant email sending, UI optimization and new enpoints to consult or add new information, strong use of Angular, Nodejs, Docker, Prime ng, flexPrime, RXJS, Figama etc. ",
+      "highlights": [
+        "Angular",
+        "NodeJS",
+        "Express",
+        "Figma",
+        "MongoDB",
+        "PrimeNG",
+        "charts.js",
+        "TypeScript",
+        "Docker",
+        "RXJS",
+        "SCSS",
+        "Monorepo",
+        "Github"
+      ]
     },
-    "work": [
     {
       "name": "Visual Systems  ",
       "position": "Full Stack Developer | Project Lead ",
       "badges": ["Remote"],
       "url": "https://visualsyst.com/",
       "startDate": "2024-03-01",
-      "endDate": null,
+      "endDate": "2025-01-10",
       "summary": "I am a Full Stack Developer with a strong focus on Node.js and Express.js, and I am continuously enhancing my skills in React. In my current position, I lead projects as both the Project Lead and Principal Developer, overseeing the full development lifecycle while maintaining close communication with clients. My recent work has expanded my technical expertise, particularly in utilizing AWS services like S3, RDS, EC2, and Docker. ",
       "highlights": [
         "React",
@@ -80,7 +105,7 @@
       "url": "https://wozial.com/public/",
       "startDate": "2020-08-01",
       "endDate": "2022-02-01",
-      "summary":"I specialize in web development, including the creation of online stores, landing pages, and web applications, with a strong emphasis on usability. I collaborate with other developers to troubleshoot and enhance existing applications. My experience includes developing React applications, integrating REST APIs, and utilizing TypeScript. Additionally, I have expertise in connecting backend and frontend using PHP and am familiar with various frontend frameworks such as Bootstrap and Tailwind CSS. I also have experience in vanilla PHP development.",
+      "summary": "I specialize in web development, including the creation of online stores, landing pages, and web applications, with a strong emphasis on usability. I collaborate with other developers to troubleshoot and enhance existing applications. My experience includes developing React applications, integrating REST APIs, and utilizing TypeScript. Additionally, I have expertise in connecting backend and frontend using PHP and am familiar with various frontend frameworks such as Bootstrap and Tailwind CSS. I also have experience in vanilla PHP development.",
       "highlights": [
         "HTML",
         "CSS",
@@ -94,18 +119,19 @@
       ]
     }
   ],
-    "volunteer": [{
+  "volunteer": [
+    {
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
       "institution": "Cuauhtemoc University",
       "url": "https://www.ucg.edu.mx/",
       "area": "Systems Engineer",
@@ -114,9 +140,7 @@
       "endDate": "2022-01-01",
       "summary": "Degree in system engineering completed",
       "score": "4.6",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     },
     {
       "institution": "IED Pablo Neruda ",
@@ -127,59 +151,62 @@
       "endDate": "2013-01-01",
       "summary": "Consecrated Bachelor, in Bogota Colombian. Among the 100 best high school graduates in the country evaluated by a national exam ",
       "score": "4.6",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [{
+    }
+  ],
+  "certificates": [
+    {
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [ {
+    }
+  ],
+  "skills": [
+    {
       "name": "HTML",
       "level": "Advance",
       "image": "/logos/html.webp",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Advance",
       "image": "/logos/css.webp",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "Advance",
       "image": "/logos/js.webp",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "Boostrap",
       "level": "Avanzado",
       "image": "/logos/boostrap.webp",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
@@ -187,23 +214,27 @@
       "level": "intermediate",
       "image": "/logos/ts.webp",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "intermediate",
       "image": "/logos/node.webp",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MySQL",
       "level": "Advance",
       "image": "/logos/mysql.webp",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
@@ -211,7 +242,10 @@
       "level": "Advance",
       "image": "/logos/aws.webp",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
@@ -219,7 +253,10 @@
       "level": "intermediate",
       "image": "/logos/mongo.webp",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
@@ -227,42 +264,54 @@
       "level": "Basic",
       "image": "/logos/sequelize.webp",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Nest.js",
       "level": "intermediate",
       "image": "/logos/NestJS.webp",
-      "keywords": [
-          "Backend"
-      ]
+      "keywords": ["Backend"]
     },
     {
       "name": "Git",
       "level": "Advance",
 
       "image": "/logos/git.webp",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "Doker",
       "level": "Basic",
 
       "image": "/logos/doker.webp",
+      "keywords": ["Contenedores", "deploy", "Código Fuente"]
+    },
+    {
+      "name": "PrimeNG",
+      "level": "intermediate",
+      "image": "/logos/primeng-logo.webp",
       "keywords": [
-        "Contenedores", "deploy", "Código Fuente"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Framework",
+        "Angular Components"
       ]
     },
-   
+
     {
       "name": "Angular",
       "level": "Advance",
       "image": "/logos/angular.webp",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
@@ -270,113 +319,106 @@
       "level": "Basic",
       "image": "/logos/react.webp",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
-    
+
     {
       "name": "Astro",
       "level": "intermediate",
       "image": "/logos/astro.webp",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    }],
-    "languages": [{
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
       "language": "Espanish",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
       "fluency": "B2 professional"
-    }],
-    "interests": [{
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [
-      {
-        "name": "Contateca",
-        "isActive": true,
-        "startDate": "2019-01-01",
-        "endDate": "2021-01-01",
-        "description": "Web app , Admin web , online schools",
-        "highlights": [
-           "Full stack development"
-        ],
-        "url": "https://contateca.com/"
-      },
-      {
-        "name": "Pacto Digital",
-        "isActive": true,
-        "startDate": "2019-01-01",
-        "endDate": "2021-01-01",
-        "description": "Web app , Admin web ,build your own contract",
-        "highlights": [
-          "Full stack development"
-        ],
-        "url": "https://www.pactodigital.com.mx/home"
-      },
-      
+    }
+  ],
+  "projects": [
+    {
+      "name": "Contateca",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Web app , Admin web , online schools",
+      "highlights": ["Full stack development"],
+      "url": "https://contateca.com/"
+    },
+    {
+      "name": "Pacto Digital",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Web app , Admin web ,build your own contract",
+      "highlights": ["Full stack development"],
+      "url": "https://www.pactodigital.com.mx/home"
+    },
+
     {
       "name": "Expresa",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "e-commerce",
-      "highlights": [
-        "Full stack development"
-      ],
+      "highlights": ["Full stack development"],
       "url": "https://www.mercabella.com/"
     },
-  {
+    {
       "name": "Mercabella",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "e-commerce",
-      "highlights": [
-        "+ 2000 sold products",
-        "Full stack development"
-      ],
+      "highlights": ["+ 2000 sold products", "Full stack development"],
       "url": "https://www.expresadbp.com/"
-    },{
+    },
+    {
       "name": "SkyExplore",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "e-commerce",
-      "highlights": [
-        "Full stack development"
-      ],
+      "highlights": ["Full stack development"],
       "url": "https://skyexplore.mx/"
-    },{
+    },
+    {
       "name": "NaoFractional",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing page",
-      "highlights": [
-         "Beautiful design",
-         "Front End  development"
-      ],
+      "highlights": ["Beautiful design", "Front End  development"],
       "url": "https://naofractional.com/index.html"
-    },{
+    },
+    {
       "name": "Playa Cay",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing page",
-      "highlights": [
-        "Front End  development"
-      ],
+      "highlights": ["Front End  development"],
       "url": "https://www.naofractional.com/playacay/"
     },
     {
@@ -385,9 +427,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing page",
-      "highlights": [
-        "Front End  development"
-      ],
+      "highlights": ["Front End  development"],
       "url": "https://www.naofractional.com/jungle-punta-mita/"
     },
     {
@@ -396,10 +436,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing page",
-      "highlights": [
-        "Online menu",
-        "Billing"
-      ],
+      "highlights": ["Online menu", "Billing"],
       "url": "https://www.restaurantesmaleconvallarta.com/index.html"
     },
     {
@@ -408,9 +445,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing Page",
-      "highlights": [
-       "Front End  development"
-      ],
+      "highlights": ["Front End  development"],
       "url": "https://www.naofractional.com/casa-pinar/"
     },
     {
@@ -419,9 +454,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing Page",
-      "highlights": [
-       "Front End  development"
-      ],
+      "highlights": ["Front End  development"],
       "url": "https://www.naofractional.com/casa-pinta/"
     },
     {
@@ -430,9 +463,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing Page",
-      "highlights": [
-       "Front End  development"
-      ],
+      "highlights": ["Front End  development"],
       "url": "https://www.naofractional.com/port-nao/"
     },
     {
@@ -441,9 +472,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing page",
-      "highlights": [
-        "Front End  development"
-      ],
+      "highlights": ["Front End  development"],
       "url": "https://meta-consultores.com.mx/"
     },
     {
@@ -452,11 +481,8 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Landing page",
-      "highlights": [
-        
-      ],
+      "highlights": [],
       "url": "https://provumex.com/"
     }
-    
-    ]
-  }
+  ]
+}
