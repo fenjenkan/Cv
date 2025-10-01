@@ -1,6 +1,7 @@
 ## CV
 Welcome to my CV, please look around it and print it yes you want
 
+**Modificado por la IA**
 
 ## 🧞 Commands
 
