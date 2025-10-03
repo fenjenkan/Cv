@@ -3,6 +3,8 @@ Welcome to my CV, please look around it and print it yes you want
 
 **Modificado por la IA**
 
+_Esta modificación fue realizada automáticamente mediante una inteligencia artificial el 3 de octubre de 2025._
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
