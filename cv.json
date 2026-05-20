@@ -35,7 +35,7 @@
       "url": "https://agavelab.com/",
       "startDate": "2025-01-27",
       "endDate": null,
-      "summary": "I am a full stack developer with a strong focus on Node.js, Express.js and Angular.js. I have worked with Angular 16 and 18 with several CSS frameworks. In my current role, I am in charge of adding, correcting and fixing app elements, PDF exports, constant email sending, UI optimization and new enpoints to consult or add new information, strong use of Angular, Nodejs, Docker, Prime ng, flexPrime, RXJS, Figama etc. ",
+      "summary": "Full Stack Developer with a strong focus on Node.js, Express.js and Angular (16/18). Responsible for building and maintaining app features, PDF exports, automated email workflows, UI optimization, and new API endpoints. Leverages Claude Code as a core productivity tool in the daily workflow — using AI-powered skills, slash commands, multi-agent tasks, and automated hooks to accelerate development, reduce context-switching, and ship higher-quality code faster. Strong use of Angular, Node.js, Docker, PrimeNG, FlexPrime, RXJS, Figma, and Monorepo architecture.",
       "highlights": [
         "Angular",
         "NodeJS",
@@ -49,7 +49,9 @@
         "RXJS",
         "SCSS",
         "Monorepo",
-        "Github"
+        "Github",
+        "Claude Code",
+        "AI-assisted development"
       ]
     },
     {
@@ -326,6 +328,12 @@
         "Static Generation"
       ]
     },
+    {
+      "name":"Claude Code",
+      "level":"Advance",
+      "image": "/logos/claude.webp",
+      "keywords": ["IA", "Assistant of Programming", "Task Automation", "Code Generation"]
+    },
 
     {
       "name": "Astro",
@@ -357,6 +365,15 @@
     }
   ],
   "projects": [
+    {
+      "name": "DOT5",
+      "isActive": true,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-01",
+      "description": "Events management, Web app , Admin web ,s ",
+      "highlights": ["Full stack development"],
+      "url": "https://app.dot5.io/"
+    },
     {
       "name": "RISE SMS",
       "isActive": true,
