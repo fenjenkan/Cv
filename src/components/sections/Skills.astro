@@ -1,43 +1,78 @@
 ---
 import Section from "@/components/Section.astro";
 import { skills } from "@cv";
-
 ---
 
-<Section title=" Skills">
+<Section title="Skills">
     <ul>
         {
-            skills.map(({ name, image }) => (
-                <li>
-                    <img src={image} alt="" width="17"/>
+            skills.map(({ name, image, level }) => (
+                <li data-level={level?.toLowerCase()}>
+                    <img src={image} alt={name} width="14" height="14" />
                     <span>{name}</span>
                 </li>
-            )
-
-                
-            )
+            ))
         }
     </ul>
 </Section>
 
 <style>
     ul {
-        display: inline-flex;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-    li {
-        border-radius: 6px;
-        background: #eee;
-        color: black;
-        font-size: 0.8rem;
-        font-weight: 500;
-        padding: 0.2rem 0.6rem;
         display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    li {
+        display: inline-flex;
         align-items: center;
-        
-    },
-    li span{
-        padding: 60px;
+        gap: 5px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.62rem;
+        padding: 4px 8px;
+        background: var(--card-bg);
+        border: 2px solid var(--border);
+        color: var(--border);
+        box-shadow: 2px 2px 0 0 #1a6600;
+        transition: box-shadow 0.1s, transform 0.1s;
+        cursor: default;
+        letter-spacing: 0.02em;
+    }
+
+    li:hover {
+        box-shadow: 4px 4px 0 0 var(--border);
+        transform: translate(-2px, -2px);
+    }
+
+    li[data-level="advance"],
+    li[data-level="avanzado"] {
+        border-color: var(--border);
+        color: var(--border);
+        box-shadow: 2px 2px 0 0 #1a6600;
+    }
+
+    li[data-level="advance"]:hover,
+    li[data-level="avanzado"]:hover {
+        box-shadow: 4px 4px 0 0 var(--border);
+    }
+
+    li[data-level="intermediate"] {
+        border-color: var(--link);
+        color: var(--link);
+        box-shadow: 2px 2px 0 0 #004466;
+    }
+
+    li[data-level="intermediate"]:hover {
+        box-shadow: 4px 4px 0 0 var(--link);
+    }
+
+    li[data-level="basic"] {
+        border-color: var(--accent);
+        color: var(--accent);
+        box-shadow: 2px 2px 0 0 #7a003a;
+    }
+
+    li[data-level="basic"]:hover {
+        box-shadow: 4px 4px 0 0 var(--accent);
     }
 </style>

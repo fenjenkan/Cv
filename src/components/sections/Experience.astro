@@ -1,10 +1,9 @@
 ---
 import Section from "@/components/Section.astro";
-
 import { work } from "@cv";
 ---
 
-<Section title=" Experience">
+<Section title="Experience">
     <ul>
         {
             work.map(
@@ -22,29 +21,28 @@ import { work } from "@cv";
                         endDate !== null
                             ? new Date(endDate).getFullYear()
                             : "Current";
-                    const years = `${startYear}-${endYear}`;
+                    const years = `${startYear} - ${endYear}`;
                     return (
                         <li>
                             <article>
                                 <header>
-                                    <div>
-                                        <h3>{name}</h3> <span>{badges}</span>
-                                        <h4>{position}</h4>
+                                    <div class="title-row">
+                                        <h3>{name}</h3>
+                                        <div class="badges">
+                                            {badges.map((badge: string) => (
+                                                <span class="badge">{badge}</span>
+                                            ))}
+                                        </div>
                                     </div>
                                     <time>{years}</time>
                                 </header>
-                                <div>
-                                    <p>{summary}</p>
-                                </div>
-
+                                <h4>{position}</h4>
+                                <p>{summary}</p>
                                 <footer>
-                                    <p>Technologies</p>
-                                    <div>
-                                        {/* Mapea los highlights y renderiza cada uno con el estilo deseado */}
+                                    <span class="tech-label">// TECH STACK</span>
+                                    <div class="chips">
                                         {highlights.map((highlight) => (
-                                            <div class="chip">
-                                                {highlight}
-                                            </div>
+                                            <span class="chip">{highlight}</span>
                                         ))}
                                     </div>
                                 </footer>
@@ -61,49 +59,103 @@ import { work } from "@cv";
     ul {
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 28px;
     }
-    article h3 {
-        font-weight: 500;
-        color: #111;
-        margin-bottom: 8px;
+
+    article {
+        border: 2px solid var(--border);
+        background: var(--card-bg);
+        box-shadow: var(--shadow-green);
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: box-shadow 0.1s, transform 0.1s;
     }
-    article h4 {
-        font-weight: 400;
-        color: #222;
+
+    article:hover {
+        box-shadow: 6px 6px 0 0 var(--border);
+        transform: translate(-2px, -2px);
     }
+
     header {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin-bottom: 4px;
+        gap: 8px;
+    }
+
+    .title-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    h3 {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 0.55rem;
+        color: var(--link);
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.8rem;
+        color: var(--text);
+        font-weight: 400;
+        letter-spacing: 0.03em;
+    }
+
+    .badge {
+        background: var(--accent);
+        color: var(--bg);
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.6rem;
+        padding: 2px 6px;
+        font-weight: 700;
+        text-transform: uppercase;
+        box-shadow: 2px 2px 0 0 #7a003a;
+        letter-spacing: 0.05em;
     }
 
     time {
-        font-size: 0.85rem;
-        color: #555;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.65rem;
+        color: var(--title);
+        white-space: nowrap;
+        flex-shrink: 0;
     }
-    article span {
-        border-radius: 6px;
-        background: #555;
-        padding: 3px;
-        font-size: 0.85rem;
-        color: #eee;
+
+    .tech-label {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        display: block;
+        margin-bottom: 6px;
+        letter-spacing: 0.05em;
     }
-    footer p{
-        font-weight: 700;
-    }
-    footer div{
-        display: flex;
-        gap: 7px;
-    }
-    .chip{
-        font-size: 0.85rem;
-        background: #EBEDEF;
-        padding: 2px;
-        border-radius: 4px;
+
+    .chips {
         display: flex;
         flex-wrap: wrap;
-        
+        gap: 6px;
+    }
+
+    .chip {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.65rem;
+        background: transparent;
+        color: var(--border);
+        border: 1px solid var(--border);
+        padding: 2px 8px;
+        box-shadow: 2px 2px 0 0 #1a6600;
+        transition: box-shadow 0.1s, transform 0.1s;
+    }
+
+    .chip:hover {
+        box-shadow: 3px 3px 0 0 var(--border);
+        transform: translate(-1px, -1px);
     }
 </style>
