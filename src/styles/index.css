@@ -1,1 +1,95 @@
+/* ============================================================
+   PIXEL ART CV - GLOBAL DESIGN SYSTEM
+   ============================================================ */
 
+/* --- Design Tokens (Mario Bros light palette) --- */
+:root {
+  --bg:           #92c0e8;
+  --surface:      #f5eedc;
+  --card-bg:      #fffdf4;
+  --border:       #cc2200;
+  --title:        #a05800;
+  --link:         #1850a8;
+  --accent:       #2d7a2d;
+  --text:         #1a0e00;
+  --text-muted:   #5a4a30;
+
+  /* Hard pixel shadows (no blur) */
+  --shadow-red:   4px 4px 0 0 #7a1400;
+  --shadow-gold:  4px 4px 0 0 #704000;
+  --shadow-blue:  4px 4px 0 0 #0e2d6a;
+  --shadow-green: 4px 4px 0 0 #1d4a1d;
+}
+
+/* --- Sharp corners everywhere (pixel art style) --- */
+*, *::before, *::after {
+  border-radius: 0 !important;
+}
+
+/* --- Pixelated image rendering --- */
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* --- Background clouds pattern --- */
+body {
+  background-image:
+    radial-gradient(ellipse at 15% 30%, rgba(255, 255, 255, 0.5) 0%, transparent 40%),
+    radial-gradient(ellipse at 75% 15%, rgba(255, 255, 255, 0.4) 0%, transparent 35%),
+    radial-gradient(ellipse at 50% 70%, rgba(255, 255, 255, 0.3) 0%, transparent 40%);
+}
+
+/* --- Pixel Section Title Utility --- */
+.pixel-section-title {
+  font-family: 'Press Start 2P', monospace;
+  color: var(--title);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-shadow: 2px 2px 0 #c8860a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.pixel-section-title::before {
+  content: '▶';
+  color: var(--accent);
+  animation: blink-arrow 2s step-end infinite;
+}
+
+.pixel-section-title::after {
+  content: '';
+  flex: 1;
+  height: 3px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--title) 0px,
+    var(--title) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  opacity: 0.5;
+}
+
+@keyframes blink-arrow {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.2; }
+}
+
+/* --- Print styles reset --- */
+@media print {
+  body::after { display: none; }
+  html { background: white !important; color: black !important; }
+  body { background: white !important; }
+  article {
+    border-color: #333 !important;
+    background: white !important;
+    box-shadow: none !important;
+  }
+  h1, h2, h3, h4 { color: black !important; text-shadow: none !important; }
+  p { color: #555 !important; }
+}

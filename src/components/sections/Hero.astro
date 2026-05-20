@@ -20,126 +20,180 @@ const linkedUrl = LinkedinInfo?.url;
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
-<Section>
-    <div class="container">
-        <div class="info">
-            <h1>{name}</h1>
-            <h2>{label}</h2>
-            <span>
-                <World />
-                {city}, {region}
-            </span>
-            <footer class="print">
-                <div>
-                    {printInfo}
-                </div>
-            </footer>
-            <footer class="no-print">
-                {
-                    email && (
-                        <a
-                            href={`mailto:${email}`}
-                            title={`Send to :${name}`}
-                            target="_blank"
-                        >
-                            <Mail />
-                        </a>
-                    )
-                }
-                {
-                    phone && (
-                        <a
-                            href={`tel:${phone}`}
-                            title={`Call to :${name}`}
-                            target="_blank"
-                        >
-                            <Phone />
-                        </a>
-                    )
-                }
-                {
-                    profiles.map(({ network, url, username }) => {
-                        const Icon = SOCIAL_ICONS[network];
+<div class="hero-wrapper">
+    <figure>
+        <img src={image} alt={name} />
+    </figure>
 
-                        return (
-                            <a
-                                href={url}
-                                title={`Visit profile of ${name} in ${network}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <Icon />
-                            </a>
-                        );
-                    })
-                }
-            </footer>
-        </div>
-        <figure>
-            <img src={image} alt={name} />
-        </figure>
+    <div class="info">
+        <h1>{name}<span class="cursor"></span></h1>
+        <h2>{label}</h2>
+        <span class="location">
+            <World />
+            {city}, {region}
+        </span>
     </div>
-</Section>
+
+    <footer class="print">
+        <div>{printInfo}</div>
+    </footer>
+
+    <footer class="social no-print">
+        {
+            email && (
+                <a href={`mailto:${email}`} title={`Send to :${name}`} target="_blank">
+                    <Mail />
+                </a>
+            )
+        }
+        {
+            phone && (
+                <a href={`tel:${phone}`} title={`Call to :${name}`} target="_blank">
+                    <Phone />
+                </a>
+            )
+        }
+        {
+            profiles.map(({ network, url }) => {
+                const Icon = SOCIAL_ICONS[network];
+                return (
+                    <a
+                        href={url}
+                        title={`Visit profile of ${name} in ${network}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Icon />
+                    </a>
+                );
+            })
+        }
+    </footer>
+
+    <div class="divider"></div>
+</div>
 
 <style>
-    .container {
+    .hero-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        text-align: center;
         gap: 1rem;
+        padding-bottom: 1.5rem;
     }
+
+    /* Pixel art frame around profile photo */
+    figure {
+        margin: 0;
+        padding: 4px;
+        border: 3px solid var(--border);
+        box-shadow: var(--shadow-red), 8px 8px 0 0 rgba(204, 34, 0, 0.08);
+        background: var(--card-bg);
+        flex-shrink: 0;
+    }
+
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 120px;
+        display: block;
+    }
+
     .info {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 0.5rem;
-        padding-right: 32px;
+        width: 100%;
     }
-    span {
-        color: #777;
+
+    h1 {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 0.6rem;
+        color: var(--border);
+        text-shadow: 2px 2px 0 rgba(0,0,0,0.25);
+        line-height: 2;
+        word-break: break-word;
+    }
+
+    .cursor::after {
+        content: '█';
+        color: var(--border);
+        animation: blink-cursor 1s step-end infinite;
+        margin-left: 2px;
+    }
+
+    @keyframes blink-cursor {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+    }
+
+    h2 {
+        font-family: 'Share Tech Mono', monospace;
+        color: var(--accent);
+        font-size: 0.75rem;
+        font-weight: 400;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
+    }
+
+    .location {
+        color: var(--text-muted);
         display: flex;
         align-items: center;
-        gap: 0.25rem;
-        font-size: 0.85rem;
-        letter-spacing: -0.05rem;
+        justify-content: center;
+        gap: 0.3rem;
+        font-size: 0.7rem;
+        font-family: 'Share Tech Mono', monospace;
     }
-    h1 {
-        font-size: 2rem;
+
+    footer.print {
+        font-size: 0.55rem;
+        color: var(--text-muted);
+        font-family: 'Share Tech Mono', monospace;
     }
-    h2 {
-        color: #444;
-        font-weight: 500;
-        font-size: 1.1rem;
-        text-wrap: balance;
-    }
-    img {
-        aspect-ratio: 1/1;
-        object-fit: cover;
-        width: 108px;
-        border-radius: 16px;
-    }
-    footer {
-        font-size: 0.6rem;
-        color: #555;
+
+    footer.social {
         display: flex;
-        gap: 4px;
-        padding-top: 8px;
+        gap: 6px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
+
     footer a {
-        color: #777;
+        color: var(--text-muted);
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid #eee;
-        border-radius: 4px;
+        border: 2px solid var(--text-muted);
         padding: 4px;
         height: 32px;
         width: 32px;
-        transition: all 0.3s ease-in-out;
+        transition: color 0.1s, border-color 0.1s, box-shadow 0.1s, transform 0.1s;
+        background: var(--card-bg);
     }
 
     footer a:hover {
-        background: #eee;
-        border: 1px solid #ddd;
+        color: var(--link);
+        border-color: var(--link);
+        box-shadow: var(--shadow-blue);
+        transform: translate(-2px, -2px);
+        text-decoration: none;
+    }
+
+    /* Pixel divider line below hero */
+    .divider {
+        width: 100%;
+        height: 3px;
+        background: repeating-linear-gradient(
+            to right,
+            var(--border) 0px,
+            var(--border) 6px,
+            transparent 6px,
+            transparent 12px
+        );
+        opacity: 0.4;
+        margin-top: 0.5rem;
     }
 </style>
