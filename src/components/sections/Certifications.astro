@@ -1,0 +1,84 @@
+---
+import Section from "@/components/Section.astro";
+import { certificates } from "@cv";
+
+type Certificate = {
+    name: string;
+    issuer: string;
+    date?: string;
+    url?: string;
+};
+
+const certs: Certificate[] = certificates;
+---
+
+<Section title="Certifications">
+    <ul>
+        {
+            certs.map(({ name, issuer, date, url }) => {
+                const year = date ? new Date(date).getFullYear() : null;
+                return (
+                    <li>
+                        {url ? (
+                            <a href={url} target="_blank" rel="noopener noreferrer">
+                                <h3>{name}</h3>
+                            </a>
+                        ) : (
+                            <h3>{name}</h3>
+                        )}
+                        <p>
+                            <span>{issuer}</span>
+                            {year && <time>{year}</time>}
+                        </p>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    li {
+        padding: 8px 10px;
+        background: var(--card-bg);
+        border: 2px solid var(--title);
+        box-shadow: 2px 2px 0 0 #5a3d00;
+        transition: box-shadow 0.1s, transform 0.1s;
+    }
+
+    li:hover {
+        box-shadow: 4px 4px 0 0 var(--title);
+        transform: translate(-2px, -2px);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h3 {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.72rem;
+        color: var(--title);
+        letter-spacing: 0.02em;
+        margin-bottom: 4px;
+    }
+
+    p {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.62rem;
+        color: var(--link);
+    }
+
+    time {
+        color: var(--text-muted);
+    }
+</style>
