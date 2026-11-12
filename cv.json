@@ -35,7 +35,7 @@
       "url": "https://agavelab.com/",
       "startDate": "2025-01-27",
       "endDate": null,
-      "summary": "Full Stack Developer with a strong focus on Node.js, Express.js and Angular (16/18). Responsible for building and maintaining app features, PDF exports, automated email workflows, UI optimization, and new API endpoints. Leverages Claude Code as a core productivity tool in the daily workflow — using AI-powered skills, slash commands, multi-agent tasks, and automated hooks to accelerate development, reduce context-switching, and ship higher-quality code faster. Strong use of Angular, Node.js, Docker, PrimeNG, FlexPrime, RXJS, Figma, and Monorepo architecture.",
+      "summary": "Full Stack Developer with a strong focus on Node.js, Express.js and Angular (16/18). Responsible for building and maintaining app features, PDF exports, automated email workflows, UI optimization, and new API endpoints. Uses AI coding agents as a core part of the daily workflow — Claude Code (skills, slash commands, hooks, MCP servers and multi-agent tasks) and OpenAI Codex — to accelerate development, automate code reviews and refactors, and ship higher-quality code faster. Also works on cloud infrastructure in AWS: containerized deployments with ECS and EC2, static assets and storage with S3 and CloudFront, DNS and TLS with Route 53 and Certificate Manager, access control with IAM and Secrets Manager, and monitoring and security with CloudWatch, AWS User Notifications and Security Lake. Strong use of Angular, Node.js, Docker, PrimeNG, FlexPrime, RXJS, Figma, and Monorepo architecture.",
       "highlights": [
         "Angular",
         "NodeJS",
@@ -51,7 +51,19 @@
         "Monorepo",
         "Github",
         "Claude Code",
-        "AI-assisted development"
+        "Codex",
+        "AI-assisted development",
+        "AWS ECS",
+        "EC2",
+        "S3",
+        "CloudFront",
+        "Route 53",
+        "Certificate Manager",
+        "IAM",
+        "Secrets Manager",
+        "CloudWatch",
+        "Security Lake",
+        "AWS User Notifications"
       ]
     },
     {
@@ -166,10 +178,8 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "Claude Developer Foundations",
+      "issuer": "Anthropic"
     }
   ],
   "publications": [
